@@ -1,4 +1,4 @@
-# Robot Joke Teller
+# Light & Dark mode switching style page
 
 ## Login
 
@@ -9,21 +9,28 @@ To get access to the app's content you need to run it into your browser.
 
 ## Content
 
-After loading page, user needs to click on a button to activate joke robot teller.
+After loading page, user is by default switched on light mode styled page.
 
 
-![robot page image](./assets/robot-page.png "robot page image")
+![light style page](./assets/img/light-mode.png "light style page")
+
+ User can then click on switcher which is positioned on top right corner <br>
+ on the navigation bar. 
+
+ User can switch back to light mode. If dark mode is last mode that user has been using<br>
+ before leaving a page, it is considered to be choosen one. 
+
+ It is remembered in localStorage and another time visiting a page, same mode will be loaded first.
 
 
-Button is disabled as long as audio element isn't finished with talking jokes.
+![darkt style page](./assets/img/dark-mode.png "dark style page")
 
-Robot gif was cloned from a giphy, audio API is enabled over VoiceRss Javaskript SDK. <br>
-Jokes are taken from Joke API. 
 
-## Used API links
-* Jokes: https://sv443.net/jokeapi/v2/
-* Audio: https://www.voicerss.org/sdk/
-* Gif image: https://giphy.com/ 
+
+## Used content links
+* Fonts: https://fonts.google.com/
+* Icons: https://fontawesome.com/icons?d=gallery&q=close&m=free
+* Undraw illustrations: https://undraw.co/illustrations
 
 
 # 👉 Built with
@@ -33,5 +40,5 @@ Jokes are taken from Joke API.
 
 # 💻 Development
 1. run index.html on your browser
-2. git clone https://github.com/valerijadrinek/robot-joke-teller.git
-3. github pages https://valerijadrinek.github.io/robot-joke-teller/
+2. git clone https://github.com/valerijadrinek/dark-light-mode-switching-page.git
+3. github pages https://valerijadrinek.github.io/dark-light-mode-switching-page/
